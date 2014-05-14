@@ -1,0 +1,35 @@
+//Base LESS file
+//
+//Author: me@mrsum.ru
+//Since:  09.05.2014
+
+@import "stuff/mixins";
+@import "stuff/colors";
+@import "stuff/buttons";
+
+@highdensity: ~"only screen and (-webkit-min-device-pixel-ratio: 1.5)",
+              ~"only screen and (min--moz-device-pixel-ratio: 1.5)",
+              ~"only screen and (-o-min-device-pixel-ratio: 3/2)",
+              ~"only screen and (min-device-pixel-ratio: 1.5)",
+              ~"only screen and (-webkit-min-device-pixel-ratio: 2)",
+              ~"only screen and (min--moz-device-pixel-ratio: 2)",
+              ~"only screen and (-o-min-device-pixel-ratio: 2)",
+              ~"only screen and (min-device-pixel-ratio: 2)";
+
+@phone:       ~"(max-width: 480px)";
+@tablet:      ~"(max-width: 768px)";
+@desktop:     ~"(min-width: 768px) and (max-width: 1024px)";
+@largeDesktop:~"(min-width: 1200px)";
+
+body {
+  font-family: 'Roboto', sans-serif!important;
+  padding: 0px;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+}
+
+.text-left    {text-align:  left}
+.text-center  {text-align:  center}
+.text-right   {text-align:  right}
+.hidden       {display: none}

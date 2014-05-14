@@ -1,0 +1,6 @@
+/**
+ * Messages FILE
+ *
+ *
+ */
+define([], function(){});

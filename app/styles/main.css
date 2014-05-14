@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,300,700&subset=latin,cyrillic);
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+.btn {
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.btn.btn-primary {
+  border: none;
+  padding: 14px 30px;
+  color: #fff;
+  margin-top: 32px;
+  cursor: pointer;
+}
+.btn.btn-primary.green {
+  background-color: #34d283;
+}
+.btn.btn-primary.green:hover {
+  background-color: #3ee491;
+}
+.btn.btn-primary.green:active {
+  background-color: #28b16c;
+}
+.btn.btn-primary.black {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.btn.btn-primary.black:hover {
+  background-color: #478fc6;
+  border: 2px solid #478fc6;
+}
+.btn.btn-primary.black:active {
+  background-color: #3c82b8;
+  border: 2px solid #3c82b8;
+}
+.btn.btn-primary.blue {
+  background-color: #51a2e0;
+}
+.btn.btn-primary.blue:hover {
+  background-color: #478fc6;
+}
+.btn.btn-primary.blue:active {
+  background-color: #3c82b8;
+}
+.btn.btn-primary.transparent {
+  background-color: transparent;
+  font-size: 14px;
+  padding: 14px 30px;
+}
+.btn.btn-primary.transparent:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn.btn-primary.transparent:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+body {
+  font-family: 'Roboto', sans-serif !important;
+  padding: 0px;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeSpeed;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.hidden {
+  display: none;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: transparent;
+  box-shadow: none;
+  outline: 0 none;
+}
