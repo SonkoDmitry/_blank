@@ -1,8 +1,7 @@
-# _blank html/js/css framework
-Hello there! If You want to use this shit, you should make next steps:
+#_blank html/js/css framework
+This util using [Yeoman](http://yeoman.io/) engine
 
-####note 
-This shit using [Yeoman](http://yeoman.io/) engine
+Hello there! If You want to use this shit, you should make next steps:
 
 ## Preparing instalation
 
@@ -13,7 +12,6 @@ This shit using [Yeoman](http://yeoman.io/) engine
  - *npm install*
  - *bower install*
  - *grunt serve*
-
  - for build application type: *grunt build*
 
 ### Includes
